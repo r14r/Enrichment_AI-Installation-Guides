@@ -8,28 +8,26 @@ Diese Anleitung bietet eine schrittweise Anleitung zur Einrichtung und Ausführu
 
 ## Schritt 1: Bei GitHub anmelden
 
-![Bei GitHub anmelden](img/003%20-%20Sign%20in%20to%20GitHub.png)
+Die Authentifizierung ist erforderlich, um auf die Funktionen von GitHub zuzugreifen, einschließlich des Forkens von Repositories und der Erstellung von Codespaces.  Ohne Anmeldung können Sie keine eigene Kopie des Repositories erstellen oder eine Entwicklungsumgebung starten.
 
-**Beschreibung:**
-
-Dies ist der Ausgangspunkt Ihrer Reise.  Navigieren Sie zu [github.com](https://github.com) und melden Sie sich mit Ihren Zugangsdaten an.
+<img src="img/003%20-%20Sign%20in%20to%20GitHub.png" alt="Bei GitHub anmelden" width="400px">
 
 **Detaillierte Schritte:**
 
-- Öffnen Sie Ihren Webbrowser und gehen Sie zu github.com
+- Öffnen Sie Ihren Webbrowser und gehen Sie zu <https://github.com>
 - Klicken Sie auf die Schaltfläche "Sign in" in der oberen rechten Ecke
 - Geben Sie Ihren GitHub-Benutzernamen oder Ihre E-Mail-Adresse ein
 - Geben Sie Ihr Passwort ein
 - Wenn Sie die Zwei-Faktor-Authentifizierung (2FA) aktiviert haben, führen Sie den zusätzlichen Verifizierungsschritt durch
 - Klicken Sie auf "Sign in", um auf Ihr GitHub-Konto zuzugreifen
 
-**Zweck:** Die Authentifizierung ist erforderlich, um auf die Funktionen von GitHub zuzugreifen, einschließlich des Forkens von Repositories und der Erstellung von Codespaces.  Ohne Anmeldung können Sie keine eigene Kopie des Repositories erstellen oder eine Entwicklungsumgebung starten.
-
 ---
 
 ## Schritt 2: Dashboard
 
-![Dashboard](img/004%20-%20Dashboard.png)
+Das Dashboard bietet einen Überblick über Ihre GitHub-Aktivitäten und dient als zentrale Navigationszentrale.  Von hier aus können Sie auf alle Ihre Repositories zugreifen, Aktivitäten überwachen und nach neuen Projekten suchen.
+
+<img src="img/004%20-%20Dashboard.png" alt="Dashboard" width="400px">
 
 **Beschreibung:**
 
@@ -42,17 +40,13 @@ Nach der Anmeldung sehen Sie Ihr GitHub-Dashboard - Ihre personalisierte Startse
 - Sehen Sie sich den Aktivitäts-Feed in der Mitte an, der Updates von Repositories zeigt, denen Sie folgen
 - Prüfen Sie die rechte Seitenleiste auf trendende Repositories und Empfehlungen
 
-**Zweck:** Das Dashboard bietet einen Überblick über Ihre GitHub-Aktivitäten und dient als zentrale Navigationszentrale.  Von hier aus können Sie auf alle Ihre Repositories zugreifen, Aktivitäten überwachen und nach neuen Projekten suchen.
-
 ---
 
 ## Schritt 3: Repository suchen
 
-![Repository suchen](img/005%20-%20Search%20Repository.png)
-
-**Beschreibung:**
-
 Um mit Ollama in einem Codespace zu arbeiten, müssen Sie das entsprechende Repository finden, das die Setup-Skripte und die Konfiguration enthält.
+
+<img src="img/005%20-%20Search%20Repository.png" alt="Repository suchen" width="400px">
 
 **Detaillierte Schritte:**
 
@@ -62,17 +56,13 @@ Um mit Ollama in einem Codespace zu arbeiten, müssen Sie das entsprechende Repo
 - Die Suche beginnt automatisch, während Sie tippen
 - Sie können auch Filter wie `user:benutzername` oder `org:organisation` hinzufügen, um die Ergebnisse einzugrenzen
 
-**Zweck:** Die Suchfunktion von GitHub hilft Ihnen, spezifische Repositories unter Millionen von öffentlichen und privaten Projekten zu finden. Dies ist wichtig, um das Repository zu finden, das die Ollama-Setup-Automatisierungsskripte enthält.
-
 ---
 
 ## Schritt 4: Liste der gesuchten Repositories
 
-![Liste der gesuchten Repositories](img/006%20-%20List%20of%20searched%20Repository.png)
+Um mit Ollama in einem Codespace zu arbeiten, müssen Sie das entsprechende Repository finden, das die Setup-Skripte und die Konfiguration enthält.
 
-**Beschreibung:**
-
-GitHub zeigt Suchergebnisse mit Repositories an, die Ihrer Anfrage entsprechen, zusammen mit relevanten Informationen zu jedem.
+<img src="img/006%20-%20List%20of%20searched%20Repository.png" alt="Liste der gesuchten Repositories" width="400px">
 
 **Detaillierte Schritte:**
 
@@ -86,17 +76,13 @@ GitHub zeigt Suchergebnisse mit Repositories an, die Ihrer Anfrage entsprechen, 
 - Verwenden Sie die Filter auf der linken Seite, um Ergebnisse nach Sprache, Sternen oder anderen Kriterien zu verfeinern
 - Identifizieren Sie das richtige Repository basierend auf der Beschreibung und dem Eigentümer
 
-**Zweck:** Die Suchergebnisseite hilft Ihnen, das richtige Repository aus potenziell mehreren Übereinstimmungen zu identifizieren und auszuwählen. Repository-Metadaten wie Sterne, Forks und Beschreibungen helfen Ihnen zu beurteilen, welches Repository das richtige ist.
-
 ---
 
 ## Schritt 5: Ausgewähltes Repository
 
-![Ausgewähltes Repository](img/007%20-%20Selected%20Repository.png)
-
-**Beschreibung:**
-
 Sie haben auf das Repository aus den Suchergebnissen geklickt und sehen nun dessen Hauptseite.
+
+<img src="img/007%20-%20Selected%20Repository.png" alt="Ausgewähltes Repository" width="400px">
 
 **Detaillierte Schritte:**
 
@@ -107,17 +93,25 @@ Sie haben auf das Repository aus den Suchergebnissen geklickt und sehen nun dess
 - Durchsuchen Sie die Dateistruktur, die Ordner und Dateien im Repository zeigt
 - Suchen Sie nach wichtigen Dateien wie README.md, Setup-Skripten oder Dokumentation
 
-**Zweck:** Die Repository-Homepage bietet umfassende Informationen über das Projekt, einschließlich seines Zwecks, wie man es verwendet und welche Dateien es enthält. Dies hilft Ihnen zu verstehen, was Sie forken und womit Sie arbeiten werden.
-
 ---
 
 ## Schritt 6: Repository forken - Button
 
-![Repository forken - Button](img/008%20-%20Fork%20Repository%20-%20Button.png)
-
-**Beschreibung:**
-
 Um eine eigene Kopie des Repositories zu erstellen, in der Sie Änderungen vornehmen können, müssen Sie es forken.  Die Fork-Schaltfläche befindet sich in der oberen rechten Ecke der Repository-Seite.
+
+<img src="img/008%20-%20Fork%20Repository%20-%20Button.png" alt="Repository forken - Button" width="400px">
+
+**Beschreibung**
+
+Forken erstellt eine unabhängige Kopie des Repositories unter Ihrem GitHub-Konto. Dadurch können Sie experimentieren, Änderungen vornehmen und den Code anpassen, ohne das ursprüngliche Repository zu beeinflussen.  Es ist ein grundlegendes Konzept in der kollaborativen Entwicklung.
+
+---
+
+## Schritt 7: Repository forken - Neuen Fork erstellen
+
+Dieser Konfigurationsschritt ermöglicht es Ihnen, anzupassen, wie das Repository geforkt wird.  Das Kopieren nur des Hauptzweigs hält Ihren Fork schlanker und fokussierter, was normalerweise ausreichend ist, um Installationsanleitungen zu folgen.
+
+<img src="img/009%20-%20Fork%20Repository%20-%20Create%20a%20new%20fork.png" alt="Repository forken - Neuen Fork erstellen" width="400px">
 
 **Detaillierte Schritte:**
 
@@ -126,17 +120,21 @@ Um eine eigene Kopie des Repositories zu erstellen, in der Sie Änderungen vorne
 - Bewegen Sie die Maus über die Fork-Schaltfläche (sie kann beim Hovern zusätzliche Informationen anzeigen)
 - Hinweis: Klicken Sie noch nicht, wenn Sie überprüfen möchten, was Forken bedeutet
 
-**Zweck:** Forken erstellt eine unabhängige Kopie des Repositories unter Ihrem GitHub-Konto. Dadurch können Sie experimentieren, Änderungen vornehmen und den Code anpassen, ohne das ursprüngliche Repository zu beeinflussen.  Es ist ein grundlegendes Konzept in der kollaborativen Entwicklung.
-
----
-
-## Schritt 7: Repository forken - Neuen Fork erstellen
-
-![Repository forken - Neuen Fork erstellen](img/009%20-%20Fork%20Repository%20-%20Create%20a%20new%20fork.png)
-
 **Beschreibung:**
 
 Nach dem Klicken auf die Fork-Schaltfläche präsentiert GitHub ein Formular zur Konfiguration Ihres Forks.
+
+---
+
+## Schritt 9: Neuen Fork erstellen
+
+Dieses visuelle Feedback versichert Ihnen, dass GitHub Ihre Fork-Anfrage aktiv verarbeitet und die Kopie des Repositories erstellt.
+
+<img src="img/014%20-%20Create%20a%20new%20Fork.png" alt="Neuen Fork erstellen" width="400px">
+
+**Beschreibung:**
+
+GitHub zeigt möglicherweise eine Bestätigung oder einen Fortschrittsindikator für den Fork-Erstellungsprozess an.
 
 **Detaillierte Schritte:**
 
@@ -145,55 +143,18 @@ Nach dem Klicken auf die Fork-Schaltfläche präsentiert GitHub ein Formular zur
   - **Repository name**: Behalten Sie den Standard bei oder passen Sie ihn an
   - **Description**: Fügen Sie optional eine Repository-Beschreibung hinzu oder ändern Sie sie
   - **Copy the main branch only**: Kontrollkästchen-Option (normalerweise standardmäßig aktiviert)
-- Überprüfen Sie die Standardeinstellungen
-- Stellen Sie sicher, dass der Eigentümer auf Ihr persönliches Konto eingestellt ist
-- Behalten Sie den Repository-Namen bei (oder passen Sie ihn bei Bedarf an)
-- Entscheiden Sie, ob nur der Hauptzweig oder alle Zweige kopiert werden sollen
-- Klicken Sie auf die grüne Schaltfläche "Create fork", um fortzufahren
-
-**Zweck:** Dieser Konfigurationsschritt ermöglicht es Ihnen, anzupassen, wie das Repository geforkt wird.  Das Kopieren nur des Hauptzweigs hält Ihren Fork schlanker und fokussierter, was normalerweise ausreichend ist, um Installationsanleitungen zu folgen.
-
----
-
-## Schritt 8: Dashboard
-
-![Dashboard](img/013%20-%20Dasbhoard.png)
-
-**Beschreibung:**
-
-Sie kehren möglicherweise kurz zum Dashboard zurück, während GitHub Ihre Fork-Anfrage verarbeitet.
-
-**Detaillierte Schritte:**
-
-- Die Seite zeigt möglicherweise eine Ladeanzeige
-- Sie sehen möglicherweise vorübergehend Ihre normale Dashboard-Ansicht
-- Dies ist ein Übergangszustand, während GitHub Ihren Fork vorbereitet
-
-**Zweck:** Dieser kurze Zwischenzustand tritt auf, während die Backend-Systeme von GitHub Ihren Fork erstellen. Er dauert normalerweise nur wenige Sekunden, abhängig von der Repository-Größe.
-
----
-
-## Schritt 9: Neuen Fork erstellen
-
-![Neuen Fork erstellen](img/014%20-%20Create%20a%20new%20Fork.png)
-
-**Beschreibung:**
-
-GitHub zeigt möglicherweise eine Bestätigung oder einen Fortschrittsindikator für den Fork-Erstellungsprozess an.
-
-**Detaillierte Schritte:**
 
 - Eine Nachricht wie "Creating fork" oder ähnlich erscheint möglicherweise
 - Fortschrittsindikatoren können sichtbar sein
 - Warten Sie, bis der Prozess abgeschlossen ist (normalerweise sehr schnell bei kleinen Repositories)
 
-**Zweck:** Dieses visuelle Feedback versichert Ihnen, dass GitHub Ihre Fork-Anfrage aktiv verarbeitet und die Kopie des Repositories erstellt.
-
 ---
 
 ## Schritt 10: Forking
 
-![Forking](img/015%20-%20Forking.png)
+GitHub kopiert die Repository-Struktur, Dateien, Commit-Historie und Zweige, um Ihre unabhängige Kopie zu erstellen. Dadurch wird sichergestellt, dass Sie eine vollständige funktionierende Version des Codes haben.
+
+<img src="img/015%20-%20Forking.png" alt="Forking" width="400px">
 
 **Beschreibung:**
 
@@ -206,33 +167,15 @@ Der Forking-Prozess ist im Gange, und GitHub zeigt eine Statusmeldung an.
 - Dieser Prozess wird normalerweise innerhalb von Sekunden für die meisten Repositories abgeschlossen
 - Schließen Sie die Browser-Registerkarte nicht und navigieren Sie während dieses Prozesses nicht weg
 
-**Zweck:** GitHub kopiert die Repository-Struktur, Dateien, Commit-Historie und Zweige, um Ihre unabhängige Kopie zu erstellen. Dadurch wird sichergestellt, dass Sie eine vollständige funktionierende Version des Codes haben.
-
----
-
-## Schritt 11: Klon des Repositories
-
-![Klon des Repositories](img/016%20-%20Clone%20of%20Repository.png)
-
-**Beschreibung:**
-
-Erfolg!  Ihr Fork ist abgeschlossen, und Sie sehen nun IHRE Kopie des Repositories unter Ihrem GitHub-Konto.
-
-**Detaillierte Schritte:**
-
-- Beachten Sie, dass der Repository-Pfad nun "IHR-BENUTZERNAME/Repository-Name" anzeigt
-- Unter dem Repository-Namen sehen Sie "forked from URSPRÜNGLICHER-EIGENTÜMER/Repository-Name"
-- Das Repository enthält alle gleichen Dateien wie das Original
-- Sie haben nun die volle Kontrolle über diese Kopie
-- Alle Änderungen, die Sie hier vornehmen, wirken sich nicht auf das ursprüngliche Repository aus
-
-**Zweck:** Ihr geforktes Repository ist eine vollständige unabhängige Kopie.  Hier werden Sie einen Codespace erstellen, um Ollama einzurichten und auszuführen. Ein eigener Fork ermöglicht es Ihnen, Änderungen vorzunehmen, Commits durchzuführen und frei zu experimentieren.
-
 ---
 
 ## Schritt 12: Codespaces - Erstellen
 
-![Codespaces - Erstellen](017%20-%20Codepaces%20-%20Create. png)
+Codespaces bietet eine vollständige, containerisierte Entwicklungsumgebung in der Cloud. Dies macht die lokale Installation von Tools überflüssig und stellt sicher, dass jeder eine konsistente Umgebung hat.
+
+Es ist perfekt zum Folgen von Installationsanleitungen.
+
+<img src="img/017 - Codepaces - Create.png" alt="Codespaces - Erstellen" width="400px">
 
 **Beschreibung:**
 
@@ -247,13 +190,13 @@ Jetzt, da Sie Ihren eigenen Fork haben, können Sie eine cloudbasierte Entwicklu
 - Klicken Sie auf die "+"-Schaltfläche oder die Schaltfläche "Create codespace on main"
 - GitHub beginnt mit der Bereitstellung Ihres Codespace
 
-**Zweck:** Codespaces bietet eine vollständige, containerisierte Entwicklungsumgebung in der Cloud. Dies macht die lokale Installation von Tools überflüssig und stellt sicher, dass jeder eine konsistente Umgebung hat.  Es ist perfekt zum Folgen von Installationsanleitungen.
-
 ---
 
 ## Schritt 13: Codespace
 
-![Codespace](img/018%20-%20Codespace.png)
+GitHub stellt eine virtuelle Maschine bereit, installiert erforderliche Software, klont Ihr Repository und richtet Visual Studio Code ein.  Dieser automatisierte Prozess erstellt eine voll funktionsfähige Entwicklungsumgebung.
+
+<img src="img/018%20-%20Codespace.png" alt="Codespace" width="400px">
 
 **Beschreibung:**
 
@@ -270,13 +213,19 @@ GitHub erstellt Ihren Codespace und lädt die Visual Studio Code-Umgebung in Ihr
 - Dieser Prozess dauert normalerweise 30 Sekunden bis 2 Minuten, abhängig von der Repository-Größe und -Komplexität
 - Die Seite zeigt möglicherweise Tipps oder Informationen über Codespaces während des Ladens
 
-**Zweck:** GitHub stellt eine virtuelle Maschine bereit, installiert erforderliche Software, klont Ihr Repository und richtet Visual Studio Code ein.  Dieser automatisierte Prozess erstellt eine voll funktionsfähige Entwicklungsumgebung.
-
 ---
 
 ## Schritt 14: Workspace öffnen
 
-![Workspace öffnen](img/020%20-%20Open%20Workspace.png)
+Das Öffnen des Workspace lädt formell die Repository-Struktur und aktiviert alle Konfigurationsdateien (wie . vscode-Einstellungen), die die Entwicklungsumgebung für dieses Projekt anpassen.
+
+Sie sehen auf der Linken seite im Explorer View die Datin ``Workspace-codeworkspace``.
+
+Sie sehen den Inhalt der Datei im Editor-Bereich. Am rechten unteren Rand erscheint eine Schaltfläche zum Öffnen dieses ``Workspaces``(im deutschen ``Arbeitsbereich``).
+
+Klicken Sie auf diese.
+
+<img src="img/020%20-%20Open%20Workspace.png" alt="Workspace öffnen" width="400px">
 
 **Beschreibung:**
 
@@ -291,13 +240,13 @@ Der Codespace wurde geladen, und VS Code im Browser ist bereit.  Möglicherweise
 - Terminal und andere Panels befinden sich möglicherweise unten
 - Wenn Sie aufgefordert werden, klicken Sie auf "Open Workspace" oder "Yes, I trust the authors"
 
-**Zweck:** Das Öffnen des Workspace lädt formell die Repository-Struktur und aktiviert alle Konfigurationsdateien (wie . vscode-Einstellungen), die die Entwicklungsumgebung für dieses Projekt anpassen.
-
 ---
 
 ## Schritt 15: Erweiterungen installieren
 
-![Erweiterungen installieren](021%20-%20Install%20Extensions. png)
+Repository-spezifische Erweiterungen verbessern Ihre Entwicklungserfahrung, indem sie Sprachunterstützung, Linting, Formatierung und andere hilfreiche Funktionen bereitstellen. Die Installation empfohlener Erweiterungen stellt sicher, dass Sie die Tools haben, die die Repository-Betreuer vorschlagen.
+
+<img src="img/021 - Install Extensions.png" alt="Erweiterungen installieren" width="400px">
 
 **Beschreibung:**
 
@@ -314,13 +263,13 @@ VS Code erkennt empfohlene Erweiterungen für dieses Repository und fordert Sie 
 - Klicken Sie auf "Install", um automatisch alle empfohlenen Erweiterungen zu installieren
 - Diese können Python, Markdown, Docker oder andere sprachspezifische Tools umfassen
 
-**Zweck:** Repository-spezifische Erweiterungen verbessern Ihre Entwicklungserfahrung, indem sie Sprachunterstützung, Linting, Formatierung und andere hilfreiche Funktionen bereitstellen. Die Installation empfohlener Erweiterungen stellt sicher, dass Sie die Tools haben, die die Repository-Betreuer vorschlagen.
-
 ---
 
 ## Schritt 16: Erweiterungen vertrauen
 
-![Erweiterungen vertrauen](img/022%20-%20Trust%20Extensions.png)
+Diese Sicherheitsmaßnahme verhindert, dass bösartiger Code automatisch ausgeführt wird. Da Sie dieses Repository absichtlich geforkt und geöffnet haben, ist es sicher, ihm zu vertrauen.  Dies ermöglicht es Erweiterungen und Skripten, ordnungsgemäß zu laufen.
+
+<img src="img/022%20-%20Trust%20Extensions.png" alt="Erweiterungen vertrauen" width="400px">
 
 **Beschreibung:**
 
@@ -338,17 +287,17 @@ Bevor Erweiterungen installiert werden, fragt VS Code Sie, ob Sie dem Workspace 
   - "No, I don't trust the authors" - öffnet im eingeschränkten Modus
 - Klicken Sie auf "Yes, I trust the authors", um fortzufahren
 
-**Zweck:** Diese Sicherheitsmaßnahme verhindert, dass bösartiger Code automatisch ausgeführt wird. Da Sie dieses Repository absichtlich geforkt und geöffnet haben, ist es sicher, ihm zu vertrauen.  Dies ermöglicht es Erweiterungen und Skripten, ordnungsgemäß zu laufen.
-
 ---
 
 ## Schritt 17: Erweiterungen werden installiert
 
-![Erweiterungen werden installiert](img/023%20-%20Installing%20Extensions.png)
+VS Code lädt nun die empfohlenen Erweiterungen herunter und installiert sie im Hintergrund.
+
+<img src="img/023%20-%20Installing%20Extensions.png" alt="Erweiterungen werden installiert" width="400px">
 
 **Beschreibung:**
 
-VS Code lädt nun die empfohlenen Erweiterungen herunter und installiert sie im Hintergrund.
+Erweiterungen fügen VS Code wichtige Funktionen hinzu, wie Python-Sprachunterstützung, Syntax-Hervorhebung, Debugging-Tools und Code-Formatierung. Diese Tools machen die Entwicklung viel einfacher und produktiver.
 
 **Detaillierte Schritte:**
 
@@ -359,17 +308,17 @@ VS Code lädt nun die empfohlenen Erweiterungen herunter und installiert sie im 
 - Der Prozess dauert normalerweise 30 Sekunden bis 2 Minuten, abhängig von der Anzahl und Größe der Erweiterungen
 - Sie können das Repository weiter durchsuchen, während dies geschieht
 
-**Zweck:** Erweiterungen fügen VS Code wichtige Funktionen hinzu, wie Python-Sprachunterstützung, Syntax-Hervorhebung, Debugging-Tools und Code-Formatierung. Diese Tools machen die Entwicklung viel einfacher und produktiver.
-
 ---
 
 ## Schritt 18: Installation der Erweiterungen abgeschlossen
 
-![Installation der Erweiterungen abgeschlossen](img/024%20-%20Installation%20fo%20Extensions%20Done.png)
-
-**Beschreibung:**
-
 Alle empfohlenen Erweiterungen wurden erfolgreich installiert und sind nun aktiv.
+
+**Beschreibung**
+
+Mit installierten Erweiterungen ist Ihre Entwicklungsumgebung nun vollständig konfiguriert und bereit für Entwicklungsarbeiten. Sie haben Syntax-Hervorhebung, IntelliSense, Debugging-Unterstützung und andere Produktivitätsfunktionen aktiviert.
+
+<img src="img/024%20-%20Installation%20fo%20Extensions%20Done.png" alt="Installation der Erweiterungen abgeschlossen" width="400px">
 
 **Detaillierte Schritte:**
 
@@ -379,17 +328,17 @@ Alle empfohlenen Erweiterungen wurden erfolgreich installiert und sind nun aktiv
 - Möglicherweise sehen Sie Benachrichtigungen unten rechts über neu verfügbare Funktionen
 - Die Erweiterungs-Seitenleiste zeigt alle installierten Erweiterungen mit ihren Versionsnummern
 
-**Zweck:** Mit installierten Erweiterungen ist Ihre Entwicklungsumgebung nun vollständig konfiguriert und bereit für Entwicklungsarbeiten. Sie haben Syntax-Hervorhebung, IntelliSense, Debugging-Unterstützung und andere Produktivitätsfunktionen aktiviert.
-
 ---
 
 ## Schritt 19: Alle Register schließen
 
-![Alle Register schließen](img/025%20-%20Close%20all%20Register.png)
+Bereinigen Sie die Oberfläche, indem Sie Benachrichtigungs-Popups, Willkommens-Tabs oder andere Informationspanels schließen.
+
+<img src="img/025%20-%20Close%20all%20Register.png" alt="Alle Register schließen" width="400px">
 
 **Beschreibung:**
 
-Bereinigen Sie die Oberfläche, indem Sie Benachrichtigungs-Popups, Willkommens-Tabs oder andere Informationspanels schließen.
+Das Entfernen unnötiger Panels und Benachrichtigungen entrümpelt Ihren Arbeitsbereich und erleichtert es, sich auf die anstehende Aufgabe zu konzentrieren - Ollama einzurichten und auszuführen.
 
 **Detaillierte Schritte:**
 
@@ -402,17 +351,17 @@ Bereinigen Sie die Oberfläche, indem Sie Benachrichtigungs-Popups, Willkommens-
   - Erweiterungs-Informationsseiten
 - Dies bietet einen sauberen Arbeitsbereich, um sich auf die eigentlichen Dateien und das Terminal zu konzentrieren
 
-**Zweck:** Das Entfernen unnötiger Panels und Benachrichtigungen entrümpelt Ihren Arbeitsbereich und erleichtert es, sich auf die anstehende Aufgabe zu konzentrieren - Ollama einzurichten und auszuführen.
-
 ---
 
 ## Schritt 20: Symbol Datei-Explorer
 
-![Symbol Datei-Explorer](img/026%20-%20Symbol%20File%20Explorer.png)
+Dieser Schritt hebt das Datei-Explorer-Symbol in der Aktivitätsleiste von VS Code hervor.
 
 **Beschreibung:**
 
-Dieser Schritt hebt das Datei-Explorer-Symbol in der Aktivitätsleiste von VS Code hervor.
+Der Datei-Explorer ist Ihr primäres Werkzeug zum Navigieren in der Dateistruktur des Repositories.  Zu verstehen, wo sich dieses Symbol befindet, hilft Ihnen, schnell auf Dateien während des gesamten Tutorials zuzugreifen.
+
+<img src="img/026%20-%20Symbol%20File%20Explorer.png" alt="Symbol Datei-Explorer" width="50px">
 
 **Detaillierte Schritte:**
 
@@ -426,17 +375,17 @@ Dieser Schritt hebt das Datei-Explorer-Symbol in der Aktivitätsleiste von VS Co
   - Ausführen und Debuggen (Play-Button mit Käfer)
   - Erweiterungen (Blöcke-Symbol)
 
-**Zweck:** Der Datei-Explorer ist Ihr primäres Werkzeug zum Navigieren in der Dateistruktur des Repositories.  Zu verstehen, wo sich dieses Symbol befindet, hilft Ihnen, schnell auf Dateien während des gesamten Tutorials zuzugreifen.
-
 ---
 
 ## Schritt 21: Explorer-Ansicht der Dateien
 
-![Explorer-Ansicht der Dateien](img/027%20-%20Explorer%20View%20of%20Files.png)
+Das Datei-Explorer-Panel ist nun geöffnet und zeigt die vollständige Datei- und Ordnerstruktur des Repositories an.
+
+<img src="img/027%20-%20Explorer%20View%20of%20Files.png" alt="Explorer-Ansicht der Dateien" width="400px">
 
 **Beschreibung:**
 
-Das Datei-Explorer-Panel ist nun geöffnet und zeigt die vollständige Datei- und Ordnerstruktur des Repositories an.
+Der Datei-Explorer gibt Ihnen Sichtbarkeit auf alle im Repository verfügbaren Ressourcen.  Für diese Ollama-Setup-Anleitung finden Sie hier die Installations- und Konfigurationsskripte.
 
 **Detaillierte Schritte:**
 
@@ -450,13 +399,13 @@ Das Datei-Explorer-Panel ist nun geöffnet und zeigt die vollständige Datei- un
 - Sie können Ordner erweitern, indem Sie auf den Pfeil/Chevron daneben klicken
 - Klicken Sie auf eine beliebige Datei, um sie im Editor zu öffnen
 
-**Zweck:** Der Datei-Explorer gibt Ihnen Sichtbarkeit auf alle im Repository verfügbaren Ressourcen.  Für diese Ollama-Setup-Anleitung finden Sie hier die Installations- und Konfigurationsskripte.
-
 ---
 
 ## Schritt 22: Terminal-Ansicht
 
-![Terminal-Ansicht](img/028%20-%20Terminal%20View.png)
+Das Terminal ist der Ort, an dem Sie alle Installationsskripte ausführen, Ollama-Befehle ausführen und mit dem System interagieren werden. Es ist die Befehlszeilenschnittstelle zu Ihrer Codespace-Umgebung.
+
+<img src="img/028%20-%20Terminal%20View.png" alt="Terminal-Ansicht" width="400px">
 
 **Beschreibung:**
 
@@ -473,17 +422,52 @@ Das Datei-Explorer-Panel ist nun geöffnet und zeigt die vollständige Datei- un
 - Das Terminal befindet sich bereits im Kontext Ihres Repository-Verzeichnisses
 - Die Standard-Shell ist normalerweise bash in Linux-basierten Codespaces
 
-**Zweck:** Das Terminal ist der Ort, an dem Sie alle Installationsskripte ausführen, Ollama-Befehle ausführen und mit dem System interagieren werden. Es ist die Befehlszeilenschnittstelle zu Ihrer Codespace-Umgebung.
+## Hinweis zur Terminal-Eingabe
+
+Im Terminal beginnen die Zeilen bereits mit einem Text. In unserem Falle z. B. :
+
+<img src="img/028 - Terminal View.png" alt="Befehl im Terminal ausführen" width="400px">
+
+``@enrichment01 ➜ /workspaces/Enrichment_AI-StarterApp (main) $``
+
+Dieser Text wird als Eingabeprompt oder kurz Prompt bezeichnet und besteht aus mehrerern Teilen:
+
+- ``@enrichment01``
+
+  Der Benutzername, mit dem Sie gerade angemeldet sind und arbeiten
+
+- ``/workspaces/Enrichment_AI-StarterApp``
+
+  Das aktuelle Verzeichnis. Hier ist des der Ordner, in dem sich unsere Anwendung befindet
+
+- ``(main)``
+
+  Der aktuelle Branch. Wir werden hierauf nicht näher eingeben.
+
+- ``$``
+
+  Ein Zeichen, das den Prompt abschließt und den Benutzer darauf hinweist, das er hier mit der Eingabe beginne kann.
+
+  Dieses Zeichen wird in den nachholdenden Beispieln immer anzeiget, darf aber **NICHT** eingegeben werden.
+
+  Wenn also der Text ``$ ollama list`` angezeigt wird, dann müssen Sie nur da Kommand ein geben: ``ollama list``
 
 ---
 
 ## Schritt 23: Befehl im Terminal ausführen
 
-![Befehl im Terminal ausführen](img/029%20-%20Run%20command%20in%20Terminal.png)
+Führen Sie Ihren ersten Befehl im Terminal aus, um verfügbare Skripte aufzulisten oder den Setup-Prozess zu beginnen.
+
+- Tippen Sie ``echo Hallo`` und dann dine Eingabetaste (``Enter``)
+
+- In der nächsten Zeile wird die entsprchende Ausgabe anzeigt:
+  ``Hallo``
+
+<img src="img/029%20-%20Run%20command%20in%20Terminal.png" alt="Befehl im Terminal ausführen" width="400px">
 
 **Beschreibung:**
 
-Führen Sie Ihren ersten Befehl im Terminal aus, um verfügbare Skripte aufzulisten oder den Setup-Prozess zu beginnen.
+Dies bestätigt, dass das Terminal korrekt funktioniert und hilft Ihnen, sich an den verfügbaren Dateien und Skripten zu orientieren.  Es ist der erste Schritt im eigentlichen Installationsprozess.
 
 **Detaillierte Schritte:**
 
@@ -491,23 +475,19 @@ Führen Sie Ihren ersten Befehl im Terminal aus, um verfügbare Skripte aufzulis
 - Sie könnten einen ersten Befehl ausführen wie:
   - `ls` - um Dateien und Verzeichnisse aufzulisten
   - `ls -la` - um Dateien mit Details aufzulisten
-  - `./setup` - um ein Setup-Skript zu starten
-  - `bash setup-python` - um ein Setup-Skript auszuführen
+  - `echo Hallo` - Ausgabe eines Wortes
+  
 - Geben Sie den Befehl ein und drücken Sie Enter zum Ausführen
 - Beobachten Sie die Ausgabe im Terminal
-- Befehle sind in Linux-Umgebungen groß-/kleinschreibungsempfindlich
-
-**Zweck:** Dies bestätigt, dass das Terminal korrekt funktioniert und hilft Ihnen, sich an den verfügbaren Dateien und Skripten zu orientieren.  Es ist der erste Schritt im eigentlichen Installationsprozess.
+- Befehle sind in Linux-Umgebungen **groß-/kleinschreibungsempfindlich**
 
 ---
 
 ## Schritt 24: Terminal - setup-python ausführen
 
-![Terminal - setup-python ausführen](img/030%20-%20Terminal%20-%20run%20setup-python.png)
-
-**Beschreibung:**
-
 Führen Sie das Python-Setup-Skript aus, um die für den Installationsprozess benötigte Python-Umgebung zu konfigurieren.
+
+<img src="img/030%20-%20Terminal%20-%20run%20setup-python.png" alt="Terminal - setup-python ausführen" width="400px">
 
 **Detaillierte Schritte:**
 
@@ -524,17 +504,13 @@ Führen Sie das Python-Setup-Skript aus, um die für den Installationsprozess be
   - Umgebungsvariablen setzen
   - Python-Pfade konfigurieren
 
-**Zweck:** Python könnte für Automatisierungsskripte, Paketverwaltung oder Konfigurationstools erforderlich sein, die in nachfolgenden Schritten verwendet werden.  Dies stellt sicher, dass Python ordnungsgemäß installiert und konfiguriert ist, bevor Sie mit der Ollama-Installation fortfahren.
-
 ---
 
 ## Schritt 25: Terminal - Popup - 01_activate-python auswählen
 
-![Terminal - Popup - 01_activate-python auswählen](img/031%20-%20Terminal%20-%20Popup%20-%20Select%2001_activate-python.png)
-
-**Beschreibung:**
-
 Ein Popup oder Menü erscheint, das wahrscheinlich verfügbare Skripte anzeigt.  Sie müssen das Python-Aktivierungsskript auswählen.
+
+<img src="img/031%20-%20Terminal%20-%20Popup%20-%20Select%2001_activate-python.png" alt="Terminal - Popup - 01_activate-python auswählen" width="400px">
 
 **Detaillierte Schritte:**
 
@@ -548,45 +524,40 @@ Ein Popup oder Menü erscheint, das wahrscheinlich verfügbare Skripte anzeigt. 
   - 03_another-script
   - usw.
 
-**Zweck:** Einige Repositories verwenden Automatisierungstools, die Menüs mit verfügbaren Skripten präsentieren. Die Auswahl des Aktivierungsskripts stellt sicher, dass die Python-Umgebung ordnungsgemäß aktiviert wird, bevor Sie fortfahren.
-
 ---
 
 ## Schritt 26: Terminal - 01_activate-python ausführen
 
-![Terminal - 01_activate-python ausführen](img/032%20-%20Terminal%20-%20run%20%2001_activate-python.png)
+Das Python-Aktivierungsskript wird nun ausgeführt und richtet die virtuelle Python-Umgebung ein oder aktiviert sie.
+
+<img src="img/032%20-%20Terminal%20-%20run%20%2001_activate-python.png" alt="Terminal - 01_activate-python ausführen" width="400px">
 
 **Beschreibung:**
-
-Das Python-Aktivierungsskript wird nun ausgeführt und richtet die virtuelle Python-Umgebung ein oder aktiviert sie.
+Die Aktivierung einer virtuellen Python-Umgebung isoliert Paketinstallationen und Abhängigkeiten. Dies verhindert Konflikte mit systemweiten Python-Paketen und stellt eine saubere, kontrollierte Umgebung für den Installationsprozess sicher.
 
 **Detaillierte Schritte:**
 
-- Der Befehl `bash 01_activate-python` oder ähnlich wird ausgeführt
+- Der Befehl `./01_activate-python` wird ausgeführt
 - Sie sehen möglicherweise Ausgaben wie:
   - "Activating Python environment..."
   - Pfadinformationen zur virtuellen Umgebung
   - Bestätigungsmeldungen
-- Die Eingabeaufforderung ändert sich möglicherweise, um die aktive Umgebung anzuzeigen:
-  - Vorher: `username@codespace:/workspaces/repo$`
-  - Nachher: `(venv) username@codespace:/workspaces/repo$`
-- Das `(venv)`-Präfix zeigt eine aktive virtuelle Umgebung an
-
-**Zweck:** Die Aktivierung einer virtuellen Python-Umgebung isoliert Paketinstallationen und Abhängigkeiten. Dies verhindert Konflikte mit systemweiten Python-Paketen und stellt eine saubere, kontrollierte Umgebung für den Installationsprozess sicher.
 
 ---
 
 ## Schritt 27: Terminal - 21_ollama-install ausführen
 
-![Terminal - 21_ollama-install ausführen](img/033%20-%20Terminal%20-%20run%2021_ollama-install.png)
+Beginnen Sie die Ollama-Installation, indem Sie das Installationsskript ausführen.
+
+<img src="img/033%20-%20Terminal%20-%20run%2021_ollama-install.png" alt="Terminal - 21_ollama-install ausführen" width="400px">
 
 **Beschreibung:**
 
-Beginnen Sie die Ollama-Installation, indem Sie das Installationsskript ausführen.
+Dieses Skript automatisiert den Ollama-Installationsprozess und kümmert sich um alle notwendigen Schritte, einschließlich des Herunterladens der Binärdatei, der Einrichtung der Konfiguration und der Sicherstellung, dass Abhängigkeiten erfüllt sind.  Es erspart Ihnen manuelle Installationsschritte.
 
 **Detaillierte Schritte:**
 
-- Geben Sie den Befehl ein: `bash 21_ollama-install` oder `./21_ollama-install`
+- Geben Sie den Befehl ein: `./21_ollama-install`
 - Drücken Sie Enter zum Ausführen
 - Das Skript initiiert den Ollama-Installationsprozess
 - Sie sehen, wie das Skript mit ersten Ausgabemeldungen beginnt
@@ -595,17 +566,17 @@ Beginnen Sie die Ollama-Installation, indem Sie das Installationsskript ausführ
   - Systemanforderungen überprüfen
   - Installationsverzeichnisse vorbereiten
 
-**Zweck:** Dieses Skript automatisiert den Ollama-Installationsprozess und kümmert sich um alle notwendigen Schritte, einschließlich des Herunterladens der Binärdatei, der Einrichtung der Konfiguration und der Sicherstellung, dass Abhängigkeiten erfüllt sind.  Es erspart Ihnen manuelle Installationsschritte.
-
 ---
 
 ## Schritt 28: Terminal - Ollama-Installation
 
-![Terminal - Ollama-Installation](img/034%20-%20Terminal%20-%20Ollama%20Installation.png)
+Die Ollama-Installation läuft aktiv, mit Statusmeldungen, die im Terminal erscheinen.
+
+<img src="img/034%20-%20Terminal%20-%20Ollama%20Installation.png" alt="Terminal - Ollama-Installation" width="500px">
 
 **Beschreibung:**
 
-Die Ollama-Installation läuft aktiv, mit Statusmeldungen, die im Terminal erscheinen.
+Ollama wird von offiziellen Quellen heruntergeladen und in Ihrem Codespace installiert. Die Installation umfasst die Ollama-Binärdatei, notwendige Bibliotheken und Konfigurationsdateien, die zum Ausführen von KI-Modellen lokal benötigt werden.
 
 **Detaillierte Schritte:**
 
@@ -622,17 +593,17 @@ Die Ollama-Installation läuft aktiv, mit Statusmeldungen, die im Terminal ersch
   - Binärdownload- und Extraktionsmeldungen
   - Pfadkonfigurations-Ausgabe
 
-**Zweck:** Ollama wird von offiziellen Quellen heruntergeladen und in Ihrem Codespace installiert. Die Installation umfasst die Ollama-Binärdatei, notwendige Bibliotheken und Konfigurationsdateien, die zum Ausführen von KI-Modellen lokal benötigt werden.
-
 ---
 
 ## Schritt 29: Terminal - Ollama-Installation abgeschlossen
 
-![Terminal - Ollama-Installation abgeschlossen](img/035%20-%20Terminal%20-%20Ollama%20Installation%20Done.png)
+Die Ollama-Installation wurde erfolgreich abgeschlossen.
+
+<img src="img/035%20-%20Terminal%20-%20Ollama%20Installation%20Done.png" alt="Terminal - Ollama-Installation abgeschlossen" width="400px">
 
 **Beschreibung:**
 
-Die Ollama-Installation wurde erfolgreich abgeschlossen.
+Bestätigung, dass Ollama jetzt installiert und einsatzbereit ist. Sie können jetzt den Ollama-Dienst starten und beginnen, KI-Modelle herunterzuladen und auszuführen.
 
 **Detaillierte Schritte:**
 
@@ -644,32 +615,32 @@ Die Ollama-Installation wurde erfolgreich abgeschlossen.
 - Sie können die Installation überprüfen, indem Sie ausführen:  `ollama --version`
 - Die Ausgabe sollte die installierte Versionsnummer zeigen
 
-**Zweck:** Bestätigung, dass Ollama jetzt installiert und einsatzbereit ist. Sie können jetzt den Ollama-Dienst starten und beginnen, KI-Modelle herunterzuladen und auszuführen.
-
 ---
 
 ## Schritt 30: Terminal - 22_ollama-serve ausführen
 
-![Terminal - 22_ollama-serve ausführen](img/036%20-%20Terminal%20-%20run%2022_ollama-serve.png)
+Starten Sie den Ollama-Server mit dem bereitgestellten Skript.  Der Server muss laufen, um Modelloperationen zu handhaben.
+
+<img src="img/036%20-%20Terminal%20-%20run%2022_ollama-serve.png" alt="Terminal - 22_ollama-serve ausführen" width="400px">
 
 **Beschreibung:**
 
-Starten Sie den Ollama-Server mit dem bereitgestellten Skript.  Der Server muss laufen, um Modelloperationen zu handhaben.
+Der Ollama-Server (oft `ollama serve` genannt) ist der Hintergrunddienst, der KI-Modelle verwaltet, API-Anfragen bearbeitet und Inferenz durchführt. Er muss laufen, bevor Sie Modelle pullen oder ausführen können.
 
 **Detaillierte Schritte:**
 
-- Geben Sie den Befehl ein: `bash 22_ollama-serve` oder `./22_ollama-serve`
+- Geben Sie den Befehl ein: `./22_ollama-serve` oder `ollama serve`
 - Drücken Sie Enter zum Ausführen
 - Das Skript startet den Ollama-Dienst
 - Sie sehen, wie der Befehl im Terminal ausgeführt wird
-
-**Zweck:** Der Ollama-Server (oft `ollama serve` genannt) ist der Hintergrunddienst, der KI-Modelle verwaltet, API-Anfragen bearbeitet und Inferenz durchführt. Er muss laufen, bevor Sie Modelle pullen oder ausführen können.
 
 ---
 
 ## Schritt 31: Terminal - Popup über Schriftarten
 
-![Terminal - Popup über Schriftarten](img/037%20-%20Terminal%20-%20Popup%20about%20Fonts.png)
+Dies ist eine kosmetische Benachrichtigung über Terminal-Anzeige-Schriftarten. Sie beeinflusst die Funktionalität nicht - einige Sonderzeichen oder Symbole werden möglicherweise nicht perfekt gerendert, aber alle Befehle funktionieren korrekt.  Dies kann sicher ignoriert werden.
+
+<img src="img/037%20-%20Terminal%20-%20Popup%20about%20Fonts.png" alt="Terminal - Popup über Schriftarten" width="400px">
 
 **Beschreibung:**
 
@@ -677,29 +648,30 @@ Ein Benachrichtigungs-Popup erscheint bezüglich Terminal-Schrifteinstellungen o
 
 **Detaillierte Schritte:**
 
-- Eine Benachrichtigung erscheint (normalerweise unten rechts) über Schriftarten
+- Eine Benachrichtigung erscheint über Schriftarten
 - Die Nachricht könnte lauten:
   - "Do you want to install recommended fonts?"
   - "Some characters may not display correctly"
   - "Terminal font not found"
 - Bereitgestellte Optionen:
+  - "Allow" oder "Zulassen"
   - "Install" oder "Yes"
   - "Not now" oder "No"
   - "Don't show again"
 - Sie können dies sicher schließen oder Schriftarten bei Bedarf installieren
 - Klicken Sie auf "Not now" oder schließen Sie die Benachrichtigung, um fortzufahren
 
-**Zweck:** Dies ist eine kosmetische Benachrichtigung über Terminal-Anzeige-Schriftarten. Sie beeinflusst die Funktionalität nicht - einige Sonderzeichen oder Symbole werden möglicherweise nicht perfekt gerendert, aber alle Befehle funktionieren korrekt.  Dies kann sicher ignoriert werden.
-
 ---
 
 ## Schritt 32: Terminal - Ollama Serve
 
-![Terminal - Ollama Serve](img/038%20-%20Terminal%20-%20Ollama%20Serve.png)
+Der Ollama-Server läuft jetzt und zeigt Log-Ausgaben an.
+
+<img src="img/038%20-%20Terminal%20-%20Ollama%20Serve.png" alt="Terminal - Ollama Serve" width="400px">
 
 **Beschreibung:**
 
-Der Ollama-Server läuft jetzt und zeigt Log-Ausgaben an.
+Der Ollama-Server ist nun betriebsbereit und bereit, Anfragen zu verarbeiten. Er verwaltet das Laden, Entladen und Inferenzoperationen von Modellen.  Dieses Terminal zeigt weiterhin Server-Logs an, sodass Sie ein zweites Terminal für zusätzliche Befehle benötigen.
 
 **Detaillierte Schritte:**
 
@@ -713,17 +685,29 @@ Der Ollama-Server läuft jetzt und zeigt Log-Ausgaben an.
 - Sie haben keine Eingabeaufforderung in diesem Terminal, während der Server läuft
 - Der Server hört auf Anfragen unter `http://localhost:11434`
 
-**Zweck:** Der Ollama-Server ist nun betriebsbereit und bereit, Anfragen zu verarbeiten. Er verwaltet das Laden, Entladen und Inferenzoperationen von Modellen.  Dieses Terminal zeigt weiterhin Server-Logs an, sodass Sie ein zweites Terminal für zusätzliche Befehle benötigen.
-
 ---
+
+## Hinweis: Ollama Server starten wenn die Umgebung neu gestartet wird
+
+Der Start des Ollama Server muss jedesmal wiederholt werden, wenn die Codespace-Umgebung neu gestartet wird, z. B. nach einer Anmeldung.
+
+Führen Sie dazu immer die beiden folgenden Schritte aus:
+
+- Neues Terminal öffnen
+
+- Eingabe des Befehls ``ollama serve``
+
+- Wechslen Sie dann wieder zu ersten Terminal und setzen Sie die Arbeit fort.
 
 ## Schritt 33: Terminal - Neues Terminal öffnen
 
-![Terminal - Neues Terminal öffnen](img/039%20-%20Terminal%20-%20Open%20new%20Terminal.png)
+Da das erste Terminal vom laufenden Ollama-Server belegt ist, öffnen Sie ein zweites Terminal, um zusätzliche Befehle auszuführen.
+
+<img src="img/039%20-%20Terminal%20-%20Open%20new%20Terminal.png" alt="Terminal - Neues Terminal öffnen" width="400px">
 
 **Beschreibung:**
 
-Da das erste Terminal vom laufenden Ollama-Server belegt ist, öffnen Sie ein zweites Terminal, um zusätzliche Befehle auszuführen.
+Das Öffnen eines zweiten Terminals ermöglicht es Ihnen, Befehle auszuführen, während der Ollama-Server im ersten Terminal weiterläuft. Dies ist wesentlich für eine Client-Server-Architektur, bei der der Server aktiv bleiben muss.
 
 **Detaillierte Schritte:**
 
@@ -736,17 +720,15 @@ Da das erste Terminal vom laufenden Ollama-Server belegt ist, öffnen Sie ein zw
 - Das neue Terminal hat seine eigene unabhängige Eingabeaufforderung
 - Sie können zwischen Terminals mit dem Dropdown-Menü oder Tabs wechseln
 
-**Zweck:** Das Öffnen eines zweiten Terminals ermöglicht es Ihnen, Befehle auszuführen, während der Ollama-Server im ersten Terminal weiterläuft. Dies ist wesentlich für eine Client-Server-Architektur, bei der der Server aktiv bleiben muss.
-
 ---
 
 ## Schritt 34: Terminal - Seitenleiste mit Liste der Terminals
 
-![Terminal - Seitenleiste mit Liste der Terminals](img/040%20-%20Terminal%20-%20Sidebar%20with%20list%20of%20Terminals.png)
+Die Verwaltung mehrerer Terminals ist wesentlich für komplexe Setups. Ein Terminal führt den Server aus, während andere zum Ausführen von Befehlen, Überwachen von Logs oder Ausführen zusätzlicher Dienste verwendet werden.
 
-**Beschreibung:**
+Die Seitenleiste macht das Wechseln zwischen ihnen einfach.
 
-Anzeigen und Verwalten mehrerer Terminal-Instanzen über die Terminal-Seitenleiste.
+<img src="img/040%20-%20Terminal%20-%20Sidebar%20with%20list%20of%20Terminals.png" alt="Terminal - Seitenleiste mit Liste der Terminals" width="400px">
 
 **Detaillierte Schritte:**
 
@@ -764,24 +746,25 @@ Anzeigen und Verwalten mehrerer Terminal-Instanzen über die Terminal-Seitenleis
   - Terminal umbenennen
   - Terminal teilen
 
-**Zweck:** Die Verwaltung mehrerer Terminals ist wesentlich für komplexe Setups.  Ein Terminal führt den Server aus, während andere zum Ausführen von Befehlen, Überwachen von Logs oder Ausführen zusätzlicher Dienste verwendet werden. Die Seitenleiste macht das Wechseln zwischen ihnen einfach.
-
 ---
 
 ## Schritt 35: Terminal - Ollama Pull Model
 
-![Terminal - Ollama Pull Model](img/041%20-%20Terminal%20-%20Ollama%20pull%20model.png)
+Laden Sie ein KI-Modell aus der Ollama-Bibliothek mit dem Pull-Befehl herunter.
+
+<img src="img/041%20-%20Terminal%20-%20Ollama%20pull%20model.png" alt="Terminal - Ollama Pull Model" width="400px">
 
 **Beschreibung:**
 
-Laden Sie ein KI-Modell aus der Ollama-Bibliothek mit dem Pull-Befehl herunter.
+KI-Modelle sind große Dateien, die die trainierten neuronalen Netzwerk-Gewichte enthalten. Das Pullen eines Modells lädt es in Ihre lokale Umgebung herunter, damit Sie Inferenz ausführen können.  Verschiedene Modelle haben unterschiedliche Fähigkeiten, Größen und Leistungsmerkmale.
 
 **Detaillierte Schritte:**
 
 - Im neuen Terminal (nicht dem, das den Server ausführt), geben Sie ein:
-  - `ollama pull llama2` (für das Llama 2-Modell)
-  - Oder `ollama pull mistral` (für Mistral)
-  - Oder jeden anderen verfügbaren Modellnamen
+  - ``23_ollama-model-installl.sh``
+
+  - ``ollama pull phi4-mini``
+
 - Drücken Sie Enter zum Ausführen
 - Der Download beginnt sofort
 - Sie sehen Ausgaben wie:
@@ -791,22 +774,22 @@ Laden Sie ein KI-Modell aus der Ollama-Bibliothek mit dem Pull-Befehl herunter.
   - Download-Geschwindigkeit und geschätzte verbleibende Zeit
 - Modelle können mehrere Gigabyte groß sein, daher kann dies mehrere Minuten dauern
 - Beliebte Modelle zum Ausprobieren:
-  - `llama2` (7B Parameter, ~3,8GB)
-  - `mistral` (7B Parameter, ~4,1GB)
-  - `phi` (2,7B Parameter, ~1,6GB)
-  - `codellama` (7B Parameter, ~3,8GB)
-
-**Zweck:** KI-Modelle sind große Dateien, die die trainierten neuronalen Netzwerk-Gewichte enthalten. Das Pullen eines Modells lädt es in Ihre lokale Umgebung herunter, damit Sie Inferenz ausführen können.  Verschiedene Modelle haben unterschiedliche Fähigkeiten, Größen und Leistungsmerkmale.
+  - `gemma3:1b`
+  - `mistral`
+  - `phi`
+  - `codellama`
 
 ---
 
 ## Schritt 36: Terminal - Ollama Pull Model abgeschlossen
 
-![Terminal - Ollama Pull Model abgeschlossen](img/042%20-%20Terminal%20-%20Ollama%20pull%20model%20Done.png)
+Der Modell-Download wurde erfolgreich abgeschlossen.
+
+<img src="img/042%20-%20Terminal%20-%20Ollama%20pull%20model%20Done.png" alt="Terminal - Ollama Pull Model abgeschlossen" width="400px">
 
 **Beschreibung:**
 
-Der Modell-Download wurde erfolgreich abgeschlossen.
+Das Modell ist nun lokal gespeichert und einsatzbereit. Sie können Inferenz mit diesem Modell ausführen, es für Chat-Interaktionen verwenden oder es in Anwendungen integrieren.  Der Download muss nur einmal pro Modell erfolgen.
 
 **Detaillierte Schritte:**
 
@@ -818,17 +801,19 @@ Der Modell-Download wurde erfolgreich abgeschlossen.
 - Die Eingabeaufforderung kehrt zurück, bereit für den nächsten Befehl
 - Sie können jetzt verfügbare Modelle auflisten mit:  `ollama list`
 
-**Zweck:** Das Modell ist nun lokal gespeichert und einsatzbereit. Sie können Inferenz mit diesem Modell ausführen, es für Chat-Interaktionen verwenden oder es in Anwendungen integrieren.  Der Download muss nur einmal pro Modell erfolgen.
-
 ---
 
 ## Schritt 37: Terminal - Ollama List Model
 
-![Terminal - Ollama List Model](img/043%20-%20Terminla%20-%20Ollama%20list%20model.png)
+Zeigen Sie alle heruntergeladenen Modelle an, die auf Ihrem System verfügbar sind.
+
+<img src="img/043%20-%20Terminla%20-%20Ollama%20list%20model.png" alt="Terminal - Ollama List Model" width="400px">
 
 **Beschreibung:**
 
-Zeigen Sie alle heruntergeladenen Modelle an, die auf Ihrem System verfügbar sind.
+Das Auflisten von Modellen hilft Ihnen zu überprüfen, was verfügbar ist, und Ihre Modellsammlung zu verwalten.
+
+Sie können die Festplattennutzung sehen und erfolgreiche Downloads bestätigen. Dies ist nützlich, wenn Sie mehrere Modelle installiert haben.
 
 **Detaillierte Schritte:**
 
@@ -842,21 +827,21 @@ Zeigen Sie alle heruntergeladenen Modelle an, die auf Ihrem System verfügbar si
 - Sie sehen alle Modelle, die Sie heruntergeladen haben
 - Dies bestätigt, dass Ihr Modell einsatzbereit ist
 
-**Zweck:** Das Auflisten von Modellen hilft Ihnen zu überprüfen, was verfügbar ist, und Ihre Modellsammlung zu verwalten. Sie können die Festplattennutzung sehen und erfolgreiche Downloads bestätigen.  Dies ist nützlich, wenn Sie mehrere Modelle installiert haben.
-
 ---
 
 ## Schritt 38: Terminal - Ollama Run Model
 
-![Terminal - Ollama Run Model](044%20-%20Terminla%20-%20Ollama%20run%20model. png)
+Starten Sie ein Modell im interaktiven Modus, um mit der KI zu chatten.
+
+<img src="044%20-%20Terminla%20-%20Ollama%20run%20model. png" alt="Terminal - Ollama Run Model" width="400px">
 
 **Beschreibung:**
 
-Starten Sie ein Modell im interaktiven Modus, um mit der KI zu chatten.
+Der `run`-Befehl lädt das Modell in den Speicher und startet eine interaktive Sitzung. Dies ist der einfachste Weg, mit KI-Modellen zu interagieren - Sie geben Fragen oder Prompts ein, und das Modell generiert Antworten in Echtzeit.
 
 **Detaillierte Schritte:**
 
-- Geben Sie den Befehl ein: `ollama run llama2` (oder Ihr gewählter Modellname)
+- Geben Sie den Befehl ein: `ollama run phi4-mini` (oder Ihr gewählter Modellname)
 - Drücken Sie Enter zum Ausführen
 - Das Modell lädt (dies kann einige Sekunden dauern)
 - Sie sehen:
@@ -867,17 +852,18 @@ Starten Sie ein Modell im interaktiven Modus, um mit der KI zu chatten.
 - Sie sind nun bereit, Prompts einzugeben
 - Der Cursor wartet auf Ihre Eingabe
 
-**Zweck:** Der `run`-Befehl lädt das Modell in den Speicher und startet eine interaktive Sitzung. Dies ist der einfachste Weg, mit KI-Modellen zu interagieren - Sie geben Fragen oder Prompts ein, und das Modell generiert Antworten in Echtzeit.
-
 ---
 
 ## Schritt 39: Terminal - Ollama Run Model mit Prompt
 
-![Terminal - Ollama Run Model mit Prompt](img/045%20-%20Terminla%20-%20Ollama%20run%20model%20with%20prompt.png)
+
+Interagieren Sie mit dem KI-Modell, indem Sie einen Prompt senden und eine Antwort erhalten.
+
+<img src="img/045%20-%20Terminla%20-%20Ollama%20run%20model%20with%20prompt.png" alt="Terminal - Ollama Run Model mit Prompt" width="400px">
 
 **Beschreibung:**
 
-Interagieren Sie mit dem KI-Modell, indem Sie einen Prompt senden und eine Antwort erhalten.
+Dies demonstriert die Kernfunktionalität von KI-Sprachmodellen - auf natürlichsprachliche Prompts zu antworten. Das Modell generiert kontextuell relevante Antworten basierend auf seinen Trainingsdaten.
 
 **Detaillierte Schritte:**
 
@@ -895,17 +881,14 @@ Interagieren Sie mit dem KI-Modell, indem Sie einen Prompt senden und eine Antwo
   - Prompt-Komplexität
   - Hardware-Ressourcen
 
-**Zweck:** Dies demonstriert die Kernfunktionalität von KI-Sprachmodellen - auf natürlichsprachliche Prompts zu antworten. Das Modell generiert kontextuell relevante Antworten basierend auf seinen Trainingsdaten.
-
 ---
 
-## Schritt 40: Terminal - Ollama Run Model mit Prompt (Fortsetzung)
+## Schritt 40: Terminal - Ollama Run Model mit Prompt 
 
-![Terminal - Ollama Run Model mit Prompt](046%20-%20Terminla%20-%20Ollama%20run%20model%20with%20prompt. png)
+Probieren sie einen weiteren Prompt aus.
 
-**Beschreibung:**
+<img src="img/046 - Terminla - Ollama run model with prompt.png" alt="Terminal - Ollama Run Model mit Prompt" width="400px">
 
-Das Modell generiert weiterhin seine Antwort oder Sie haben zusätzliche Prompts übermittelt.
 
 **Detaillierte Schritte:**
 
@@ -919,17 +902,17 @@ Das Modell generiert weiterhin seine Antwort oder Sie haben zusätzliche Prompts
 - Das Modell behält die Konversationshistorie innerhalb der Sitzung bei
 - Jeder neue Prompt profitiert vom vorherigen Kontext
 
-**Zweck:** Dies demonstriert die konversationelle Natur moderner KI-Modelle.  Sie behalten den Kontext über mehrere Austausche bei und ermöglichen einen natürlichen Hin-und-her-Dialog und Folgefragen.
-
 ---
 
 ## Schritt 41: Terminal - Ollama Run Model Hilfe anzeigen
 
-![Terminal - Ollama Run Model Hilfe anzeigen](img/047%20-%20Terminla%20-%20Ollama%20run%20model%20show%20help.png)
+Zeigen Sie Hilfeinformationen mit verfügbaren Befehlen im interaktiven Modus an.
+
+<img src="img/047%20-%20Terminla%20-%20Ollama%20run%20model%20show%20help.png" alt="Terminal - Ollama Run Model Hilfe anzeigen" width="400px">
 
 **Beschreibung:**
 
-Zeigen Sie Hilfeinformationen mit verfügbaren Befehlen im interaktiven Modus an.
+Das Verständnis verfügbarer Befehle hilft Ihnen, die Sitzung zu steuern, den Konversationskontext zu verwalten, Parameter anzupassen und ordnungsgemäß zu beenden. Der Hilfebefehl ist Ihr schneller Referenzleitfaden.
 
 **Detaillierte Schritte:**
 
@@ -946,17 +929,18 @@ Zeigen Sie Hilfeinformationen mit verfügbaren Befehlen im interaktiven Modus an
   - `/set` - Parameter ändern (Temperatur, usw.)
 - Diese Befehle steuern die interaktive Sitzung
 
-**Zweck:** Das Verständnis verfügbarer Befehle hilft Ihnen, die Sitzung zu steuern, den Konversationskontext zu verwalten, Parameter anzupassen und ordnungsgemäß zu beenden. Der Hilfebefehl ist Ihr schneller Referenzleitfaden.
-
 ---
 
 ## Schritt 42: Terminal - Ollama Run Model Beenden
 
-![Terminal - Ollama Run Model Beenden](img/048%20-%20Terminla%20-%20Ollama%20run%20model%20exit.png)
+
+Beenden Sie die interaktive Modellsitzung und kehren Sie zur regulären Eingabeaufforderung zurück.
+
+<img src="img/048%20-%20Terminla%20-%20Ollama%20run%20model%20exit.png" alt="Terminal - Ollama Run Model Beenden" width="400px">
 
 **Beschreibung:**
 
-Beenden Sie die interaktive Modellsitzung und kehren Sie zur regulären Eingabeaufforderung zurück.
+Das ordnungsgemäße Beenden der interaktiven Sitzung entlädt das Modell aus dem Speicher und gibt Systemressourcen frei. Sie können nun andere Ollama-Befehle ausführen, den Status überprüfen oder zusätzliche Modelle pullen.
 
 **Detaillierte Schritte:**
 
@@ -970,92 +954,4 @@ Beenden Sie die interaktive Modellsitzung und kehren Sie zur regulären Eingabea
 - Die reguläre Terminal-Eingabeaufforderung kehrt zurück (z.B. `username@codespace:~$`)
 - Sie sind zurück in der normalen Shell und können andere Befehle ausführen
 
-**Zweck:** Das ordnungsgemäße Beenden der interaktiven Sitzung entlädt das Modell aus dem Speicher und gibt Systemressourcen frei. Sie können nun andere Ollama-Befehle ausführen, den Status überprüfen oder zusätzliche Modelle pullen.
-
 ---
-
-## Fazit
-
-Herzlichen Glückwunsch!  Sie haben erfolgreich:
-
-- ✅ Ein GitHub-Repository geforkt
-- ✅ Einen GitHub Codespace erstellt
-- ✅ Erforderliche Erweiterungen und Tools installiert
-- ✅ Python-Umgebung eingerichtet
-- ✅ Ollama installiert
-- ✅ Den Ollama-Server gestartet
-- ✅ Ein KI-Modell heruntergeladen
-- ✅ Mit dem KI-Modell interagiert
-
-## Nächste Schritte
-
-Jetzt, da Sie Ollama am Laufen haben, können Sie:
-
-1. **Weitere Modelle erkunden**
-
-   ```bash
-   ollama pull mistral
-   ollama pull codellama
-   ollama pull phi
-   ```
-
-2. **Ollama-API verwenden**
-
-   ```bash
-   curl http://localhost:11434/api/generate -d '{
-     "model": "llama2",
-     "prompt":  "Warum ist der Himmel blau?"
-   }'
-   ```
-
-3. **In Anwendungen integrieren**
-   - Ollama als Backend für Chat-Anwendungen verwenden
-   - KI-gestützte Tools und Skripte erstellen
-   - Benutzerdefinierte Workflows mit KI-Unterstützung erstellen
-
-4. **Ihren Codespace verwalten**
-   - Stoppen Sie den Codespace, wenn er nicht verwendet wird (Einstellungen → Stop Codespace)
-   - Setzen Sie ihn später mit allen Ihren Modellen und Konfigurationen fort
-   - Löschen Sie ihn, wenn er nicht mehr benötigt wird, um Ressourcen freizugeben
-
-## Nützliche Befehlsreferenz
-
-```bash
-# Modellverwaltung
-ollama list                    # Heruntergeladene Modelle auflisten
-ollama pull <modell>          # Ein Modell herunterladen
-ollama rm <modell>            # Ein Modell entfernen
-ollama show <modell>          # Modellinformationen anzeigen
-
-# Modelle ausführen
-ollama run <modell>           # Interaktiver Modus
-ollama run <modell> "prompt"  # Einzelner Prompt
-ollama serve                  # Server starten
-
-# System
-ollama ps                     # Laufende Modelle anzeigen
-ollama --version              # Ollama-Version anzeigen
-```
-
-## Fehlerbehebung
-
-**Modell kann nicht geladen werden**
-
-- Überprüfen Sie verfügbaren Speicher:  `free -h`
-- Versuchen Sie ein kleineres Modell wie `phi`, wenn der Speicher begrenzt ist
-
-**Server antwortet nicht**
-
-- Stellen Sie sicher, dass `ollama serve` in einem Terminal läuft
-- Überprüfen Sie den Serverstatus: `curl http://localhost:11434`
-
-**Langsame Antworten**
-
-- Normal für große Modelle auf begrenzter Hardware
-- Versuchen Sie kleinere Modelle für schnellere Antworten
-
-## Ressourcen
-
-- [Ollama Offizielle Dokumentation](https://github.com/ollama/ollama)
-- [Ollama-Modellbibliothek](https://ollama.com/library)
-- [GitHub Codespaces Dokumentation](https://docs.github.com/de/codespaces)
