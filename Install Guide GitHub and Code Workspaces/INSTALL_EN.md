@@ -8,7 +8,7 @@ This guide provides a step-by-step walkthrough for setting up and running Ollama
 
 ## Step 1: Sign in to GitHub
 
-![Sign in to GitHub](003%20-%20Sign%20in%20to%20GitHub.png)
+![Sign in to GitHub](img/003%20-%20Sign%20in%20to%20GitHub.png)
 
 **Description:**
 
@@ -29,7 +29,7 @@ This is the starting point of your journey. Navigate to [github.com](https://git
 
 ## Step 2: Dashboard
 
-![Dashboard](004%20-%20Dashboard.png)
+![Dashboard](img/004%20-%20Dashboard.png)
 
 **Description:**
 
@@ -48,7 +48,7 @@ Once logged in, you'll see your GitHub dashboard - your personalized home page o
 
 ## Step 3: Search Repository
 
-![Search Repository](005%20-%20Search%20Repository.png)
+![Search Repository](img/005%20-%20Search%20Repository.png)
 
 **Description:**
 
@@ -68,7 +68,7 @@ To work with Ollama in a codespace, you need to find the appropriate repository 
 
 ## Step 4: List of Searched Repository
 
-![List of searched Repository](006%20-%20List%20of%20searched%20Repository.png)
+![List of searched Repository](img/006%20-%20List%20of%20searched%20Repository.png)
 
 **Description:**
 
@@ -92,7 +92,7 @@ GitHub displays search results showing repositories that match your query, along
 
 ## Step 5: Selected Repository
 
-![Selected Repository](007%20-%20Selected%20Repository.png)
+![Selected Repository](img/007%20-%20Selected%20Repository.png)
 
 **Description:**
 
@@ -113,7 +113,7 @@ You've clicked on the repository from the search results and are now viewing its
 
 ## Step 6: Fork Repository - Button
 
-![Fork Repository - Button](008%20-%20Fork%20Repository%20-%20Button.png)
+![Fork Repository - Button](img/008%20-%20Fork%20Repository%20-%20Button.png)
 
 **Description:**
 
@@ -132,7 +132,7 @@ To create your own copy of the repository where you can make changes, you need t
 
 ## Step 7: Fork Repository - Create a New Fork
 
-![Fork Repository - Create a new fork](009%20-%20Fork%20Repository%20-%20Create%20a%20new%20fork.png)
+![Fork Repository - Create a new fork](img/009%20-%20Fork%20Repository%20-%20Create%20a%20new%20fork.png)
 
 **Description:**
 
@@ -157,7 +157,7 @@ After clicking the Fork button, GitHub presents a form to configure your fork.
 
 ## Step 8: Dashboard
 
-![Dashboard](013%20-%20Dasbhoard.png)
+![Dashboard](img/013%20-%20Dasbhoard.png)
 
 **Description:**
 
@@ -175,7 +175,7 @@ You may briefly return to the dashboard while GitHub processes your fork request
 
 ## Step 9: Create a New Fork
 
-![Create a new Fork](014%20-%20Create%20a%20new%20Fork.png)
+![Create a new Fork](img/014%20-%20Create%20a%20new%20Fork.png)
 
 **Description:**
 
@@ -193,7 +193,7 @@ GitHub may show a confirmation or progress indicator for the fork creation proce
 
 ## Step 10: Forking
 
-![Forking](015%20-%20Forking.png)
+![Forking](img/015%20-%20Forking.png)
 
 **Description:**
 
@@ -212,7 +212,7 @@ The forking process is in progress, and GitHub displays a status message.
 
 ## Step 11: Clone of Repository
 
-![Clone of Repository](016%20-%20Clone%20of%20Repository.png)
+![Clone of Repository](img/016%20-%20Clone%20of%20Repository.png)
 
 **Description:**
 
@@ -232,7 +232,7 @@ Success! Your fork is complete, and you're now viewing YOUR copy of the reposito
 
 ## Step 12: Codespaces - Create
 
-![Codespaces - Create](017%20-%20Codepaces%20-%20Create.png)
+![Codespaces - Create](img/017%20-%20Codepaces%20-%20Create.png)
 
 **Description:**
 
@@ -253,7 +253,7 @@ Now that you have your own fork, you can create a cloud-based development enviro
 
 ## Step 13: Codespace
 
-![Codespace](018%20-%20Codespace.png)
+![Codespace](img/018%20-%20Codespace.png)
 
 **Description:**
 
@@ -276,7 +276,7 @@ GitHub is creating your codespace and loading the Visual Studio Code environment
 
 ## Step 14: Open Workspace
 
-![Open Workspace](020%20-%20Open%20Workspace.png)
+![Open Workspace](img/020%20-%20Open%20Workspace.png)
 
 **Description:**
 
@@ -297,7 +297,7 @@ The codespace has loaded, and VS Code in the browser is ready.  You may see a pr
 
 ## Step 15: Install Extensions
 
-![Install Extensions](021%20-%20Install%20Extensions.png)
+![Install Extensions](img/021%20-%20Install%20Extensions.png)
 
 **Description:**
 
@@ -365,7 +365,7 @@ VS Code is now downloading and installing the recommended extensions in the back
 
 ## Step 18: Installation of Extensions Done
 
-![Installation of Extensions Done](024%20-%20Installation%20fo%20Extensions%20Done.png)
+![Installation of Extensions Done](img/024%20-%20Installation%20fo%20Extensions%20Done.png)
 
 **Description:**
 
@@ -385,7 +385,7 @@ All recommended extensions have been successfully installed and are now active.
 
 ## Step 19: Close All Register
 
-![Close all Register](025%20-%20Close%20all%20Register.png)
+![Close all Register](img/025%20-%20Close%20all%20Register.png)
 
 **Description:**
 
@@ -408,7 +408,7 @@ Clean up the interface by closing notification popups, welcome tabs, or other in
 
 ## Step 20: Symbol File Explorer
 
-![Symbol File Explorer](026%20-%20Symbol%20File%20Explorer.png)
+![Symbol File Explorer](img/026%20-%20Symbol%20File%20Explorer.png)
 
 **Description:**
 
@@ -432,7 +432,7 @@ This step highlights the File Explorer icon in VS Code's Activity Bar.
 
 ## Step 21: Explorer View of Files
 
-![Explorer View of Files](027%20-%20Explorer%20View%20of%20Files.png)
+![Explorer View of Files](img/027%20-%20Explorer%20View%20of%20Files.png)
 
 **Description:**
 
@@ -456,7 +456,7 @@ The File Explorer panel is now open, displaying the repository's complete file a
 
 ## Step 22: Terminal View
 
-![Terminal View](028%20-%20Terminal%20View.png)
+![Terminal View](img/028%20-%20Terminal%20View.png)
 
 **Description:**
 
@@ -479,7 +479,7 @@ Open the integrated terminal where you'll execute all the installation commands.
 
 ## Step 23: Run Command in Terminal
 
-![Run command in Terminal](029%20-%20Run%20command%20in%20Terminal.png)
+![Run command in Terminal](img/029%20-%20Run%20command%20in%20Terminal.png)
 
 **Description:**
 
@@ -503,7 +503,7 @@ Execute your first command in the terminal to list available scripts or begin th
 
 ## Step 24: Terminal - Run setup-python
 
-![Terminal - run setup-python](030%20-%20Terminal%20-%20run%20setup-python.png)
+![Terminal - run setup-python](img/030%20-%20Terminal%20-%20run%20setup-python.png)
 
 **Description:**
 
@@ -530,7 +530,7 @@ Execute the Python setup script to configure the Python environment needed for t
 
 ## Step 25: Terminal - Popup - Select 01_activate-python
 
-![Terminal - Popup - Select 01_activate-python](031%20-%20Terminal%20-%20Popup%20-%20Select%2001_activate-python.png)
+![Terminal - Popup - Select 01_activate-python](img/031%20-%20Terminal%20-%20Popup%20-%20Select%2001_activate-python.png)
 
 **Description:**
 
@@ -554,7 +554,7 @@ A popup or menu appears, likely showing available scripts.  You need to select t
 
 ## Step 26: Terminal - Run 01_activate-python
 
-![Terminal - run 01_activate-python](032%20-%20Terminal%20-%20run%20%2001_activate-python.png)
+![Terminal - run 01_activate-python](img/032%20-%20Terminal%20-%20run%20%2001_activate-python.png)
 
 **Description:**
 
@@ -578,7 +578,7 @@ The Python activation script is now executing, setting up or activating the Pyth
 
 ## Step 27: Terminal - Run 21_ollama-install
 
-![Terminal - run 21_ollama-install](033%20-%20Terminal%20-%20run%2021_ollama-install.png)
+![Terminal - run 21_ollama-install](img/033%20-%20Terminal%20-%20run%2021_ollama-install.png)
 
 **Description:**
 
@@ -601,7 +601,7 @@ Begin the Ollama installation by executing the installation script.
 
 ## Step 28: Terminal - Ollama Installation
 
-![Terminal - Ollama Installation](034%20-%20Terminal%20-%20Ollama%20Installation.png)
+![Terminal - Ollama Installation](img/034%20-%20Terminal%20-%20Ollama%20Installation.png)
 
 **Description:**
 
@@ -628,7 +628,7 @@ The Ollama installation is actively in progress, with status messages appearing 
 
 ## Step 29: Terminal - Ollama Installation Done
 
-![Terminal - Ollama Installation Done](035%20-%20Terminal%20-%20Ollama%20Installation%20Done.png)
+![Terminal - Ollama Installation Done](img/035%20-%20Terminal%20-%20Ollama%20Installation%20Done.png)
 
 **Description:**
 
@@ -650,7 +650,7 @@ The Ollama installation has completed successfully.
 
 ## Step 30: Terminal - Run 22_ollama-serve
 
-![Terminal - run 22_ollama-serve](036%20-%20Terminal%20-%20run%2022_ollama-serve.png)
+![Terminal - run 22_ollama-serve](img/036%20-%20Terminal%20-%20run%2022_ollama-serve.png)
 
 **Description:**
 
@@ -669,7 +669,7 @@ Start the Ollama server using the provided script.  The server needs to be runni
 
 ## Step 31: Terminal - Popup About Fonts
 
-![Terminal - Popup about Fonts](037%20-%20Terminal%20-%20Popup%20about%20Fonts.png)
+![Terminal - Popup about Fonts](img/037%20-%20Terminal%20-%20Popup%20about%20Fonts.png)
 
 **Description:**
 
@@ -695,7 +695,7 @@ A notification popup appears regarding terminal font settings or missing fonts.
 
 ## Step 32: Terminal - Ollama Serve
 
-![Terminal - Ollama Serve](038%20-%20Terminal%20-%20Ollama%20Serve.png)
+![Terminal - Ollama Serve](img/038%20-%20Terminal%20-%20Ollama%20Serve.png)
 
 **Description:**
 
@@ -719,7 +719,7 @@ The Ollama server is now running and displaying log output.
 
 ## Step 33: Terminal - Open New Terminal
 
-![Terminal - Open new Terminal](039%20-%20Terminal%20-%20Open%20new%20Terminal.png)
+![Terminal - Open new Terminal](img/039%20-%20Terminal%20-%20Open%20new%20Terminal.png)
 
 **Description:**
 
@@ -742,7 +742,7 @@ Since the first terminal is occupied by the running Ollama server, open a second
 
 ## Step 34: Terminal - Sidebar with List of Terminals
 
-![Terminal - Sidebar with list of Terminals](040%20-%20Terminal%20-%20Sidebar%20with%20list%20of%20Terminals.png)
+![Terminal - Sidebar with list of Terminals](img/040%20-%20Terminal%20-%20Sidebar%20with%20list%20of%20Terminals.png)
 
 **Description:**
 
@@ -770,7 +770,7 @@ View and manage multiple terminal instances through the terminal sidebar.
 
 ## Step 35: Terminal - Ollama Pull Model
 
-![Terminal - Ollama pull model](041%20-%20Terminal%20-%20Ollama%20pull%20model.png)
+![Terminal - Ollama pull model](img/041%20-%20Terminal%20-%20Ollama%20pull%20model.png)
 
 **Description:**
 
@@ -824,7 +824,7 @@ The model download has completed successfully.
 
 ## Step 37: Terminal - Ollama List Model
 
-![Terminal - Ollama list model](043%20-%20Terminla%20-%20Ollama%20list%20model.png)
+![Terminal - Ollama list model](img/043%20-%20Terminla%20-%20Ollama%20list%20model.png)
 
 **Description:**
 
@@ -873,7 +873,7 @@ Start running a model in interactive mode to chat with the AI.
 
 ## Step 39: Terminal - Ollama Run Model with Prompt
 
-![Terminal - Ollama run model with prompt](045%20-%20Terminla%20-%20Ollama%20run%20model%20with%20prompt.png)
+![Terminal - Ollama run model with prompt](img/045%20-%20Terminla%20-%20Ollama%20run%20model%20with%20prompt.png)
 
 **Description:**
 
@@ -952,7 +952,7 @@ Display help information showing available commands while in interactive mode.
 
 ## Step 42: Terminal - Ollama Run Model Exit
 
-![Terminal - Ollama run model exit](048%20-%20Terminla%20-%20Ollama%20run%20model%20exit.png)
+![Terminal - Ollama run model exit](img/048%20-%20Terminla%20-%20Ollama%20run%20model%20exit.png)
 
 **Description:**
 
