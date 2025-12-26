@@ -1,0 +1,12 @@
+default:
+    @just -l
+
+
+create-pdf:
+    pandoc INSTALL_DE.md                                \
+            --output INSTALL_DE.pdf                     \
+            --pdf-engine=xelatex                        \
+            --variable mainfont="Arial"                 \
+            --variable monofont="Menlo"                 \
+            --variable geometry=margin=2.5cm            \
+            --lua-filter=chapter-pagebreak.lua
